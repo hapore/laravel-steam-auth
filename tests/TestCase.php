@@ -1,6 +1,6 @@
 <?php
 
-namespace Invisnik\LaravelSteamAuth\Tests;
+namespace Hapore\LaravelSteamAuth\Tests;
 
 use Illuminate\Support\Arr;
 use InvalidArgumentException;

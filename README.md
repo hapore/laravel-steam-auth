@@ -1,8 +1,8 @@
 # Steam authentication for Laravel
-[![Code Climate](https://codeclimate.com/github/invisnik/laravel-steam-auth/badges/gpa.svg)](https://codeclimate.com/github/invisnik/laravel-steam-auth)
-[![Latest Stable Version](https://img.shields.io/packagist/v/invisnik/laravel-steam-auth.svg)](https://packagist.org/packages/invisnik/laravel-steam-auth)
-[![Total Downloads](https://img.shields.io/packagist/dt/invisnik/laravel-steam-auth.svg)](https://packagist.org/packages/invisnik/laravel-steam-auth)
-[![License](https://img.shields.io/github/license/invisnik/laravel-steam-auth.svg)](https://packagist.org/packages/invisnik/laravel-steam-auth)
+[![Code Climate](https://codeclimate.com/github/hapore/laravel-steam-auth/badges/gpa.svg)](https://codeclimate.com/github/hapore/laravel-steam-auth)
+[![Latest Stable Version](https://img.shields.io/packagist/v/hapore/laravel-steam-auth.svg)](https://packagist.org/packages/hapore/laravel-steam-auth)
+[![Total Downloads](https://img.shields.io/packagist/dt/hapore/laravel-steam-auth.svg)](https://packagist.org/packages/hapore/laravel-steam-auth)
+[![License](https://img.shields.io/github/license/hapore/laravel-steam-auth.svg)](https://packagist.org/packages/hapore/laravel-steam-auth)
 
 This package is a Laravel 5 service provider which provides support for Steam OpenID and is very easy to integrate with any project that requires Steam authentication.
 
@@ -13,7 +13,7 @@ This package is a Laravel 5 service provider which provides support for Steam Op
 ## Installation
 #### Via Composer
 ```bash
-composer require invisnik/laravel-steam-auth
+composer require hapore/laravel-steam-auth
 ```
 
 #### Steam API Key
@@ -29,7 +29,7 @@ STEAM_API_KEY=SomeKindOfAPIKey
 Publish the config file.
 
 ```
-php artisan vendor:publish --provider="Invisnik\LaravelSteamAuth\SteamServiceProvider"
+php artisan vendor:publish --provider="Hapore\LaravelSteamAuth\SteamServiceProvider"
 ```
 ## Usage example
 In `config/steam-auth.php`:
@@ -69,7 +69,7 @@ In `AuthController`:
 ```php
 namespace App\Http\Controllers;
 
-use Invisnik\LaravelSteamAuth\SteamAuth;
+use Hapore\LaravelSteamAuth\SteamAuth;
 use App\User;
 use Auth;
 

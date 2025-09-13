@@ -1,6 +1,6 @@
 <?php
 
-namespace Invisnik\LaravelSteamAuth;
+namespace Hapore\LaravelSteamAuth;
 
 interface SteamAuthInterface
 {

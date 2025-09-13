@@ -1,6 +1,6 @@
 <?php
 
-namespace Invisnik\LaravelSteamAuth;
+namespace Hapore\LaravelSteamAuth;
 
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Exception\GuzzleException;

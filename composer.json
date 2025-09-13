@@ -21,18 +21,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Invisnik\\LaravelSteamAuth\\": "src"
+            "Hapore\\LaravelSteamAuth\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Invisnik\\LaravelSteamAuth\\Tests\\": "tests"
+            "Hapore\\LaravelSteamAuth\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Invisnik\\LaravelSteamAuth\\SteamServiceProvider"
+                "Hapore\\LaravelSteamAuth\\SteamServiceProvider"
             ]
         }
     },
